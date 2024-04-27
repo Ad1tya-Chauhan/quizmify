@@ -1,8 +1,12 @@
 {
     "functions": {
       "api/questions": {
-        "maxDuration": 9
+        "handler": "src/app/api/game/route.handler",
+        "maxDuration": 5,
+        "runtime": "nodejs14.x",
+        "memory": 1024
       }
     }
   }
+  
   
